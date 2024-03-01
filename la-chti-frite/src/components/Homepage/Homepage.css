@@ -1,0 +1,94 @@
+h2{
+    font-size: 31px;
+}
+header{
+    background: url(../../../public/french-fries.jpg) no-repeat center center/cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.title img{
+    width: 265px;
+}
+.title h1{
+    font-size: 92px;
+    color: #FFC300;
+    margin: 0;
+}
+.title h2{
+    font-size: 30px;
+    color: #FFC300;
+    margin: 0;
+}
+.AboutUs{
+    background-color: #FFC300;
+    display: flex;
+    padding: 50px 0;
+    height: 25vh;
+    justify-content: space-around;
+}
+.AboutUs div{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: left;
+    color: #003566;
+    font-size: 21px;
+}
+.AboutUs img{
+    width: 349px;
+}
+.BestSales{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 40vh;
+    padding: 50px 0;
+}
+.BestSales div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.BestSales img{
+    width: 320px;
+    height: 320px;
+}
+.Engagements{
+    background-color: #003566;
+    color: #FFC300;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    height: 50vh;
+}
+.Images{
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;;
+}
+.Engagements img{
+    width: 500px;
+    height: 350px;
+}
+
+footer{
+    background-color: #000814;
+    display: flex;
+    padding:50px 0;
+    height: 10vh
+}
