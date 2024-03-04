@@ -7,7 +7,7 @@ function Navbar() {
       <nav>
         <ul className='nav-left'>
           <li id='logo'>
-            <img src="./Logo Chti'frite.png" alt="Logo" />
+            <img src={require("../../images/Logo Chti'frite.png")} alt="Logo" />
             <a href="#home">LA CHTI'FRITE</a>
           </li>
           <li><a href="#menu">Menu</a></li>
