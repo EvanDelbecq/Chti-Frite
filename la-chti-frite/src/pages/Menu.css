@@ -1,0 +1,64 @@
+.Menu h2:not(.BeerList h2){
+    color: #FFC300;
+}
+.Menu header{
+    background: url(../images/deep-fried.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ProductListDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProductList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 0;
+}
+.BeerList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 455px;
+    padding: 50px 0;
+    background-color: #FFC300;
+    color: #003566;
+}
+.BeerList img {
+    width: 400px;
+    height: 240px;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.BeerList div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.BeerList ul{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.MenuList{
+    display: flex;
+    background-color: #003566;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0
+}

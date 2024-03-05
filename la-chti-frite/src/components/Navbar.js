@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import '../App.css';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
       <nav>
         <ul className='nav-left'>
           <li id='logo'>
-            <Link to="/">
+            <Link to="/Chti-Frite/">
               <img src={require("../images/Logo Chti'frite.png")} alt="Logo" />
               <span>LA CHTI'FRITE</span>
             </Link>

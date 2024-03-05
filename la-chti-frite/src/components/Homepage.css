@@ -26,14 +26,14 @@
     color: #FFC300;
     margin: 0;
 }
-.Homepage .AboutUs{
+.AboutUs{
     background-color: #FFC300;
     display: flex;
     padding: 50px 0;
     height: 300px;
     justify-content: space-around;
 }
-.Homepage .AboutUs div{
+.AboutUs div{
     display: flex;
     flex-direction: column;
     max-width: 50%;
@@ -41,11 +41,11 @@
     color: #003566;
     font-size: 21px;
 }
-.Homepage .AboutUs img{
+.AboutUs img{
     object-fit: cover;
     width: 349px;
 }
-.Homepage .BestSales{
+.BestSales{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -53,14 +53,14 @@
     padding: 50px 0;
     color: #FFC300;
 }
-.Homepage .BestSales .productContainer{
+.productContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
-.Homepage .BestSales .product{
+.product{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,17 +72,16 @@
     border-radius: 5px;
     box-shadow: 9px 6px 4px #0000007e;
 }
-
-.Homepage .BestSales img{
+.BestSales img{
     object-fit: cover;
     width: 300px;
     height: 229px;
 }
-.Homepage .BestSales p{
+.BestSales p{
     margin: 8px;
 }
 
-.Homepage .Engagements{
+.Engagements{
     background-color: #003566;
     color: #FFC300;
     display: flex;
@@ -90,7 +89,7 @@
     padding: 50px 0;
     height: 503px;
 }
-.Homepage .Images{
+.Images{
     min-width: 100%;
     display: flex;
     flex-direction: row;
@@ -98,15 +97,8 @@
     align-items: center;
     max-width: 50%;;
 }
-.Homepage .Engagements img{
+.Engagements img{
     object-fit: cover;
     width: 500px;
     height: 350px;
-}
-
-.Homepage footer{
-    background-color: #000814;
-    display: flex;
-    padding:50px 0;
-    height: 146px
 }

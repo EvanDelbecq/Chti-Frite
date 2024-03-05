@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-  font-family: 'Aoboshi One';
 }
 
 h1{
   filter: drop-shadow(4px 6px 4px #0000007e);
   font-family: "Luckiest Guy", cursive;
+  color: #FFC300;
 }
 h2{
   font-size: 35px;

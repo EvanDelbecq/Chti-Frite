@@ -48,9 +48,6 @@ function Homepage() {
                 </div>
             </div>
         </section>
-        <footer>
-
-        </footer>
     </div>
   );
 }
