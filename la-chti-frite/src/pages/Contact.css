@@ -1,0 +1,55 @@
+.Contact header{
+    height: 320px;
+    background-color: #003566;
+    display: flex;
+ align-items: center;
+    justify-content: center;
+    color: #FFC300;
+    font-size: 30px;
+}
+.Map{
+    height: 250px;
+}
+.ContactDiv{
+    display: flex;
+    height: 50vh;
+}
+.ContactInfo{
+    background-color: #FFC300;
+    width: 50%;
+    margin-top: 0;
+}
+.ContactInfo ul{
+    color: #003566;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Form{
+    width: 50%;
+    background-color: #003566;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+form * {
+    margin: 10px;
+    width: 50%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+}
+#subject{
+    height: 25%;
+}

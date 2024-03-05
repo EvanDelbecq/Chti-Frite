@@ -3,17 +3,15 @@
   font-family: 'Aoboshi One';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  filter: drop-shadow(4px 6px 4px #0000007e);
+  font-family: "Luckiest Guy", cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  font-size: 35px;
+  filter: drop-shadow(4px 6px 4px #0000007e);
+  font-family: "Luckiest Guy", cursive;
 }
-
 .Navbar {
   position: fixed;
   top: 0;

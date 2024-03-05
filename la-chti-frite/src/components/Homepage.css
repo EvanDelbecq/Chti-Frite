@@ -1,49 +1,39 @@
-
-h1{
-    filter: drop-shadow(4px 6px 4px #0000007e);
-    font-family: "Luckiest Guy", cursive;
-}
-h2{
-    font-size: 35px;
-    filter: drop-shadow(4px 6px 4px #0000007e);
-    font-family: "Luckiest Guy", cursive;
-}
-header{
-    background: url(../../images/french-fries.jpg) no-repeat center center/cover;
+.Homepage header{
+    background: url(../images/french-fries.jpg) no-repeat center center/cover;
     height: 688px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.title{
+.Homepage title{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-.title img{
+.Homepage .title img{
     width: 265px;
 }
-.title h1{
+.Homepage .title h1{
     font-size: 92px;
     color: #FFC300;
     margin: 0;
 }
-.title h2{
+.Homepage .title h2{
     font-size: 30px;
     color: #FFC300;
     margin: 0;
 }
-.AboutUs{
+.Homepage .AboutUs{
     background-color: #FFC300;
     display: flex;
     padding: 50px 0;
     height: 300px;
     justify-content: space-around;
 }
-.AboutUs div{
+.Homepage .AboutUs div{
     display: flex;
     flex-direction: column;
     max-width: 50%;
@@ -51,11 +41,11 @@ header{
     color: #003566;
     font-size: 21px;
 }
-.AboutUs img{
+.Homepage .AboutUs img{
     object-fit: cover;
     width: 349px;
 }
-.BestSales{
+.Homepage .BestSales{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -63,14 +53,14 @@ header{
     padding: 50px 0;
     color: #FFC300;
 }
-.BestSales .productContainer{
+.Homepage .BestSales .productContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
-.BestSales .product{
+.Homepage .BestSales .product{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,16 +73,16 @@ header{
     box-shadow: 9px 6px 4px #0000007e;
 }
 
-.BestSales img{
+.Homepage .BestSales img{
     object-fit: cover;
     width: 300px;
     height: 229px;
 }
-.BestSales p{
+.Homepage .BestSales p{
     margin: 8px;
 }
 
-.Engagements{
+.Homepage .Engagements{
     background-color: #003566;
     color: #FFC300;
     display: flex;
@@ -100,7 +90,7 @@ header{
     padding: 50px 0;
     height: 503px;
 }
-.Images{
+.Homepage .Images{
     min-width: 100%;
     display: flex;
     flex-direction: row;
@@ -108,13 +98,13 @@ header{
     align-items: center;
     max-width: 50%;;
 }
-.Engagements img{
+.Homepage .Engagements img{
     object-fit: cover;
     width: 500px;
     height: 350px;
 }
 
-footer{
+.Homepage footer{
     background-color: #000814;
     display: flex;
     padding:50px 0;

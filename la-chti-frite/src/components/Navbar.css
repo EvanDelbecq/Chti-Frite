@@ -26,7 +26,7 @@
   .nav-right{
     min-width: 15%;
   }
-  nav ul li{
+  nav li{
     display: inline;
     padding: 10px;
     font-size: 20px;
@@ -34,23 +34,29 @@
     text-transform: uppercase;
     cursor: pointer;
   }
-  nav ul li a{
+  nav a{
     color: #FFC300;
     text-decoration: none;
   }
-  nav ul li a:hover{
+  nav a:hover:not(#logo a){
     color: #FFD700;
+  }
+  #logo{
+    padding-left: 0;
   }
   #logo img{
     width: 93px;
     margin-right: -13px;
   }
-  #logo{
+  #logo a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 23px;
   }
-  button{
+  
+  nav button{
     background-color: #FFC300;
     color: #003566;
     border: none;
@@ -61,7 +67,7 @@
     cursor: pointer;
     transition: 0.3s;
   }
-  button:hover{
+  nav button:hover{
     background-color: #FFD700;
   }
 .nav-right i{
