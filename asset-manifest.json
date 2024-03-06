@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/Chti-Frite/static/css/main.9c175705.css",
-    "main.js": "/Chti-Frite/static/js/main.04d5b615.js",
+    "main.css": "/Chti-Frite/static/css/main.e5be1819.css",
+    "main.js": "/Chti-Frite/static/js/main.6858ac5f.js",
     "static/js/453.bfdd5500.chunk.js": "/Chti-Frite/static/js/453.bfdd5500.chunk.js",
+    "static/media/hamburger.jpg": "/Chti-Frite/static/media/hamburger.cc79dbc19917a40d827f.jpg",
     "static/media/french-fries.jpg": "/Chti-Frite/static/media/french-fries.fe17b5416ff4edb8d1f3.jpg",
-    "static/media/logo.svg": "/Chti-Frite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/potatoes.jpg": "/Chti-Frite/static/media/potatoes.aabf75fbc0db7d989b37.jpg",
+    "static/media/beer-barrel.jpg": "/Chti-Frite/static/media/beer-barrel.19e065ae4167301589dd.jpg",
+    "static/media/deep-fried.jpg": "/Chti-Frite/static/media/deep-fried.42c50953d0c6776d028b.jpg",
+    "static/media/Logo Chti'frite.png": "/Chti-Frite/static/media/Logo Chti'frite.ff30bfd7094feefb45d9.png",
+    "static/media/chtour.jpg": "/Chti-Frite/static/media/chtour.2cd8ccb5850dd15e96dd.jpg",
+    "static/media/farmer.jpg": "/Chti-Frite/static/media/farmer.e8c575bb266e2d94e362.jpg",
+    "static/media/americain.jpg": "/Chti-Frite/static/media/americain.6bcccc32349cfdf2abcd.jpg",
+    "static/media/crep.jpg": "/Chti-Frite/static/media/crep.5e786e7cbe00ead807ab.jpg",
+    "static/media/french-fries_barquette.jpg": "/Chti-Frite/static/media/french-fries_barquette.27dfec6470ff931d0f75.jpg",
+    "static/media/peel-the-potato.jpg": "/Chti-Frite/static/media/peel-the-potato.50fc237d1b0e59162a75.jpg",
+    "static/media/fricadelles.webp": "/Chti-Frite/static/media/fricadelles.31b305eabf76e0f042e5.webp",
     "index.html": "/Chti-Frite/index.html",
-    "main.9c175705.css.map": "/Chti-Frite/static/css/main.9c175705.css.map",
-    "main.04d5b615.js.map": "/Chti-Frite/static/js/main.04d5b615.js.map",
+    "main.e5be1819.css.map": "/Chti-Frite/static/css/main.e5be1819.css.map",
+    "main.6858ac5f.js.map": "/Chti-Frite/static/js/main.6858ac5f.js.map",
     "453.bfdd5500.chunk.js.map": "/Chti-Frite/static/js/453.bfdd5500.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c175705.css",
-    "static/js/main.04d5b615.js"
+    "static/css/main.e5be1819.css",
+    "static/js/main.6858ac5f.js"
   ]
 }
