@@ -1,12 +1,12 @@
 import React from 'react';
 import './Product.css';
-function Product() {
+function Product(props) {
     return (
         <div className='product'>
-            <p>Le Burger</p>
-            <img src={require("../images/hamburger.jpg")} alt="Une image de burger" />
+            <p>{props.name}</p>
+            <img src={props.image} alt={props.alt} />
         </div>
     );
 }
 
-export default Product;
+export default Product;                                             

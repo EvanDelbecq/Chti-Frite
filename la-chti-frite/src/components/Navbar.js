@@ -18,7 +18,7 @@ function Navbar() {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
         <ul className='nav-right'>
-          <li><i class="fa-solid fa-location-dot"></i></li>
+          <li><a href='https://maps.app.goo.gl/B4DVnjkpFoenChLC8' target='-blank'><i class="fa-solid fa-location-dot"></i></a></li>
           <li><button>Se Connecter</button></li>
         </ul>
       </nav>

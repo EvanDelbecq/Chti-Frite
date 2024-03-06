@@ -2,7 +2,7 @@
     color: #FFC300;
 }
 .Menu header{
-    background: url(../images/deep-fried.jpg) no-repeat center center/cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/deep-fried.jpg) no-repeat center center/cover;
     width: 100%;
     height: 510px;
     display: flex;
@@ -17,7 +17,7 @@
 .ProductList{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
     padding: 50px 0;
@@ -46,10 +46,20 @@
 }
 .BeerList ul{
     height: 100%;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.BeerList li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.BeerList{
+    font-size: 1.3em;
 }
 
 .MenuList{
@@ -60,5 +70,6 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    padding: 50px 0
+    padding: 50px 0;
+    font-size: 1.3em;
 }
