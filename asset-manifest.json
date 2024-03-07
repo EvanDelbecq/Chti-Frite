@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Chti-Frite/static/css/main.85bd9aaa.css",
+    "main.css": "/Chti-Frite/static/css/main.9baa2dce.css",
     "main.js": "/Chti-Frite/static/js/main.18d59b96.js",
     "static/js/453.bfdd5500.chunk.js": "/Chti-Frite/static/js/453.bfdd5500.chunk.js",
     "static/media/hamburger.jpg": "/Chti-Frite/static/media/hamburger.cc79dbc19917a40d827f.jpg",
@@ -17,12 +17,12 @@
     "static/media/peel-the-potato.jpg": "/Chti-Frite/static/media/peel-the-potato.50fc237d1b0e59162a75.jpg",
     "static/media/fricadelles.webp": "/Chti-Frite/static/media/fricadelles.31b305eabf76e0f042e5.webp",
     "index.html": "/Chti-Frite/index.html",
-    "main.85bd9aaa.css.map": "/Chti-Frite/static/css/main.85bd9aaa.css.map",
+    "main.9baa2dce.css.map": "/Chti-Frite/static/css/main.9baa2dce.css.map",
     "main.18d59b96.js.map": "/Chti-Frite/static/js/main.18d59b96.js.map",
     "453.bfdd5500.chunk.js.map": "/Chti-Frite/static/js/453.bfdd5500.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85bd9aaa.css",
+    "static/css/main.9baa2dce.css",
     "static/js/main.18d59b96.js"
   ]
 }
