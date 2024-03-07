@@ -84,6 +84,9 @@ h2{
   align-items: center;
   width: 100%;
 }
+.productContainer a{
+  display: flex;
+}
 .product{
   display: flex;
   flex-direction: column;
