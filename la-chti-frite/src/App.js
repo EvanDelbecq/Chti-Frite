@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar.js';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -23,18 +24,24 @@ function App() {
         <section className='BestSales'>
             <h2>Nos meilleures ventes</h2>
             <div className='productContainer'>
-                <div className='product'>
-                    <p>La Barquette</p>
-                    <img src={require("./images/french-fries_barquette.jpg")} alt="Des Frites" />
-                </div>
-                <div className='product'>
-                    <p>Le Burger</p>
-                    <img src={require("./images/hamburger.jpg")} alt="Un Burger" />
-                </div>
-                <div className='product'>
-                    <p>L'Américain</p>
-                    <img src={require("./images/americain.jpg")} alt="Un Américain" />
-                </div>
+                <Link to="/Chti-Frite/menu">
+                    <div className='product'>
+                        <p>La Barquette</p>
+                        <img src={require("./images/french-fries_barquette.jpg")} alt="Des Frites" />
+                    </div>
+                </Link>
+                <Link to="/Chti-Frite/menu">
+                    <div className='product'>
+                        <p>Le Burger</p>
+                        <img src={require("./images/hamburger.jpg")} alt="Un Burger" />
+                    </div>
+                </Link>
+                <Link to="/Chti-Frite/menu">
+                    <div className='product'>
+                        <p>L'Américain</p>
+                        <img src={require("./images/americain.jpg")} alt="Un Américain" />
+                    </div>
+                </Link>            
             </div>
         </section>
         <section className='Engagements'>

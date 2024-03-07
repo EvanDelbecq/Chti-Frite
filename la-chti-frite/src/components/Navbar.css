@@ -74,7 +74,7 @@ nav button:hover{
   font-size: 40px;
 }
 
-@media screen and (min-device-width : 320px) and (max-device-width : 650px){
+@media (min-width : 320px) and (max-width : 650px){
   nav{
     padding: 0;
   }

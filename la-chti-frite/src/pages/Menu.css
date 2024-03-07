@@ -73,7 +73,7 @@
     padding: 50px 0;
     font-size: 1.3em;
 }
-@media only screen and (min-device-width : 500px) and (max-device-width : 900px){
+@media (min-width : 500px) and (max-width : 900px){
     .BeerList div{
         flex-direction: column;
         align-items: center;
@@ -87,7 +87,7 @@
     }
 
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 500px){
+@media (min-width : 320px) and (max-width : 500px){
     .Menu header{
         font-size: 13px;
     }
