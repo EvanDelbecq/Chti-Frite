@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chti-Frite/static/css/main.e5be1819.css",
-    "main.js": "/Chti-Frite/static/js/main.6858ac5f.js",
+    "main.css": "/Chti-Frite/static/css/main.2b2cea9b.css",
+    "main.js": "/Chti-Frite/static/js/main.2df945e0.js",
     "static/js/453.bfdd5500.chunk.js": "/Chti-Frite/static/js/453.bfdd5500.chunk.js",
     "static/media/hamburger.jpg": "/Chti-Frite/static/media/hamburger.cc79dbc19917a40d827f.jpg",
     "static/media/french-fries.jpg": "/Chti-Frite/static/media/french-fries.fe17b5416ff4edb8d1f3.jpg",
@@ -17,12 +17,12 @@
     "static/media/peel-the-potato.jpg": "/Chti-Frite/static/media/peel-the-potato.50fc237d1b0e59162a75.jpg",
     "static/media/fricadelles.webp": "/Chti-Frite/static/media/fricadelles.31b305eabf76e0f042e5.webp",
     "index.html": "/Chti-Frite/index.html",
-    "main.e5be1819.css.map": "/Chti-Frite/static/css/main.e5be1819.css.map",
-    "main.6858ac5f.js.map": "/Chti-Frite/static/js/main.6858ac5f.js.map",
+    "main.2b2cea9b.css.map": "/Chti-Frite/static/css/main.2b2cea9b.css.map",
+    "main.2df945e0.js.map": "/Chti-Frite/static/js/main.2df945e0.js.map",
     "453.bfdd5500.chunk.js.map": "/Chti-Frite/static/js/453.bfdd5500.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5be1819.css",
-    "static/js/main.6858ac5f.js"
+    "static/css/main.2b2cea9b.css",
+    "static/js/main.2df945e0.js"
   ]
 }
