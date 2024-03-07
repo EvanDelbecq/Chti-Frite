@@ -16,7 +16,7 @@ function App() {
         <section className='AboutUs'>
             <div>
                 <h2>Qui sommes-nous ?</h2>
-                <p>Chez Chti'Frite, nous sommes passionnés par la cuisine du Nord, et chaque plat que nous préparons est une célébration de la tradition culinaire ch'ti. Notre équipe dévouée s'efforce de vous offrir une expérience gastronomique inoubliable, où chaque bouchée vous transporte directement dans les rues animées de Lille.</p>
+                <p>A Chti'Frite, in est amoureux de l'cuisine du Nord, et chaque plat qu'in prépare, ch'est eune fête de l'tradition culinaire ch'ti. In est là, toute eul' équipe dévouée, à s'bouger pour te donner eune expérience gastronomique qui t'reste in tête, qu'in t'emporte direct'mint dins ches rues bourdonnantes ed'vie à Lille. Cha, ch'est pas juste des bouchées, ch'est des p'tits voyaches dins l'monde culinaire ed'chez nous.</p>
             </div>
             <img src={require("./images/peel-the-potato.jpg")} alt="Un home qui épluche des pommes de terres" />
         </section>
@@ -42,11 +42,11 @@ function App() {
             <div className='Images'>
                 <div>
                     <img src={require("./images/potatoes.jpg")} alt="Des patates naturelles et 100% française" />
-                    <h3>Pommes de terres 100% française</h3>
+                    <h3>Pommes de terres 100% françaises</h3>
                 </div>
                 <div>
                     <img src={require("./images/farmer.jpg")} alt="Roger, notre fermier partenaire" />
-                    <h3>Des agriculteurs partenaire</h3>
+                    <h3>Des agriculteurs partenaires</h3>
                 </div>
             </div>
         </section>

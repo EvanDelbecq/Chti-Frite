@@ -13,8 +13,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/Chti-Frite/" element={<App />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Chti-Frite/menu" element={<Menu />} />
+        <Route path="/Chti-Frite/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

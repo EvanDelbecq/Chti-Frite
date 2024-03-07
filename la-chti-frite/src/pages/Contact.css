@@ -5,17 +5,20 @@
     align-items: flex-end;
     justify-content: center;
     color: #FFC300;
-    filter: drop-shadow(4px 6px 4px #0000007e);
     font-family: "Luckiest Guy", cursive;
     font-size: 2em;
-    height: 25vh;
+    height: 200px;
+}
+.Contact header h1{
+    filter: drop-shadow(4px 6px 4px #0000007e);
+    margin: 10px;
 }
 .Map{
-    height: 25vh;
+    height: 270px;
 }
 .ContactDiv{
     display: flex;
-    height: 50vh;
+    min-height: 500px;
 }
 .ContactInfo{
     background-color: #FFC300;
@@ -35,6 +38,35 @@
 .ContactInfo ul *{
     margin-left: 10px;
 }
+.ContactInfo li{
+    cursor: pointer;
+    
+}
+.ContactInfo a {
+    text-decoration: none;
+    color: #003566;
+    margin: 0;
+}
+.ContactInfo a:hover{
+    color: #004e97;
+    transition: 0.5s;
+}
 #subject{
     height: 25%;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 900px){
+    .ContactDiv{
+        flex-direction: column;
+        height: 250px;
+    }
+    .ContactDiv div{
+        width: 100%;
+        height: 500px;
+    }
+    .Contact h1{
+        font-size: 1.4em;
+    }
+    .ContactInfo li{
+        font-size: 0.8em;
+    }
 }

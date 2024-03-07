@@ -14,8 +14,8 @@ function Navbar() {
               <span>LA CHTI'FRITE</span>
             </Link>
           </li>
-          <li><Link to="/menu">Menu</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/Chti-Frite/menu">Menu</Link></li>
+          <li><Link to="/Chti-Frite/contact">Contact</Link></li>
         </ul>
         <ul className='nav-right'>
           <li><a href='https://maps.app.goo.gl/B4DVnjkpFoenChLC8' target='-blank'><i class="fa-solid fa-location-dot"></i></a></li>

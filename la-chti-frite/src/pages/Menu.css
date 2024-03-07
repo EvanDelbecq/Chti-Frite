@@ -28,7 +28,7 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 455px;
+    min-height: 455px;
     padding: 50px 0;
     background-color: #FFC300;
     color: #003566;
@@ -72,4 +72,42 @@
     width: 100%;
     padding: 50px 0;
     font-size: 1.3em;
+}
+@media only screen and (min-device-width : 500px) and (max-device-width : 900px){
+    .BeerList div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .BeerList img {
+        width: 60%;
+        margin: 0;
+    }
+    .BeerList ul{
+        padding: 0;
+    }
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 500px){
+    .Menu header{
+        font-size: 13px;
+    }
+    .BeerList img {
+        width: 80%;
+        height: 180px;
+        margin: 0;
+    }
+    .BeerList ul{
+        padding: 0;
+    }
+    .BeerList{
+        font-size: 1em;;
+    }
+    .BeerList div{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .MenuList{
+        font-size: 1em;
+    }
 }

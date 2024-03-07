@@ -12,6 +12,7 @@
     margin: 25px 5%;
     transition: 0.5s;
     font-family: luckiest guy;
+    cursor: pointer;
 }
 .product img{
     object-fit: cover;
@@ -21,5 +22,75 @@
 .product:hover{
     box-shadow: 0px 0px 25px #000000;
     transform: scale(1.1);
+}
+.product .toggleContainer{
+    display: none;
+}
+.productdesc{
+    background-color : #003566;
+    text-align: center;
+    color : #FFC300;
+    font-size: 29px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 9px 6px 4px #0000007e;
+    margin: 25px 5%;
     transition: 0.5s;
+    font-family: luckiest guy;
+    cursor: pointer;
+}
+.productdesc img{
+    object-fit: cover;
+    width: 500px;
+    height: 429px;
+    padding: 3%;
+}
+.productDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.productdesc .toggleContainer{
+    width: 50%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+#description{
+    font-family: Aoboshi One
+}
+@media only screen and (min-device-width : 769px) and (max-width: 1130px){
+    #description{
+        font-size: 0.8em;
+    
+}
+}
+@media only screen and (min-device-width : 601px) and (max-width: 768px){
+    .productdesc img{
+        width: 300px;
+        height: 229px;
+    }
+    #description{
+        font-size: 0.5em;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px){
+    .productDetails{
+        flex-direction: column;
+    }
+    .productdesc img{
+        width: 300px;
+        height: 229px;
+    }
+    .productdesc .toggleContainer{
+        width: 100%;
+        text-align: center;
+    }
+    #description{
+        font-size: 0.7em;
+    }
 }

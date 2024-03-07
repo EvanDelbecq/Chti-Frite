@@ -54,7 +54,7 @@ h2{
   background-color: #FFC300;
   display: flex;
   padding: 50px 0;
-  height: 300px;
+  min-height: 300px;
   justify-content: space-around;
 }
 .AboutUs div{
@@ -111,7 +111,7 @@ h2{
   display: flex;
   flex-direction: column;
   padding: 50px 0;
-  height: 503px;
+  min-height: 503px;
   font-size: 1.3em;
   font-family: luckiest guy;
 }
@@ -127,4 +127,92 @@ h2{
   object-fit: cover;
   width: 500px;
   height: 350px;
+}
+@media only screen and (min-device-width : 500px) and (max-width: 1200px) {
+  .Homepage header{
+    height: 500px;
+  }
+  .Homepage .title h1{
+    font-size: 60px;
+  }
+  .Homepage .title h2{
+    font-size: 20px;
+  }
+  .AboutUs{
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutUs div{
+    max-width: 100%;
+    text-align: center;
+  }
+  .AboutUs img{
+    width: 80%;
+  }
+  .BestSales{
+    height: 100%;
+  }
+  .productContainer{
+    flex-direction: column;
+  }
+  .product{
+    margin: 10px 0;
+  }
+  .BestSales img{
+    width: 100%;
+    height: 100%;
+  }
+  .Engagements{
+    height: 100%;
+  }
+  .Images{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Engagements img{
+    width: 50%;
+    height: 70%;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 500px){
+  .Homepage header{
+    height: 500px;
+  }
+  .Homepage .title h1{
+    font-size: 60px;
+  }
+  .Homepage .title h2{
+    font-size: 15px;
+  }
+  .AboutUs{
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutUs div{
+    max-width: 100%;
+    text-align: center;
+  }
+  .AboutUs img{
+    width: 80%;
+  }
+  .BestSales{
+    height: 100%;
+  }
+  .productContainer{
+    flex-direction: column;
+  }
+  .Images{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Engagements img{
+    width: 60%;
+    height: 70%;
+  }
+  .Engagements{
+    height: 100%;
+  }
+  .Engagements h3{
+    margin-bottom: 70px;
+  }
 }
