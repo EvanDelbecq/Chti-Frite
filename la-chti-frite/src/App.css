@@ -86,6 +86,7 @@ h2{
 }
 .productContainer a{
   display: flex;
+  justify-content: center;
 }
 .product{
   display: flex;

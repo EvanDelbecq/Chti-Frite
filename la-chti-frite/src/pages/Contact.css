@@ -1,3 +1,4 @@
+
 .Contact header{
     height: 320px;
     background-color: #003566;
@@ -18,7 +19,7 @@
 }
 .ContactDiv{
     display: flex;
-    min-height: 500px;
+    min-height: 523px;
 }
 .ContactInfo{
     background-color: #FFC300;
