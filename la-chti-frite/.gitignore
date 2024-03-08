@@ -5,6 +5,7 @@
 /firestore
 /.pnp
 .pnp.js
+.firestore.js
 
 # testing
 /coverage
