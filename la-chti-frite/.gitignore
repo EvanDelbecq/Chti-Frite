@@ -2,10 +2,9 @@
 
 # dependencies
 /node_modules
-/firestore
+/src/firebase
 /.pnp
 .pnp.js
-.firestore.js
 
 # testing
 /coverage
