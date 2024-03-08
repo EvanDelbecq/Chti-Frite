@@ -19,7 +19,7 @@
 }
 .ContactDiv{
     display: flex;
-    min-height: 523px;
+    min-height: 56.5vh;
 }
 .ContactInfo{
     background-color: #FFC300;
@@ -55,6 +55,9 @@
 #subject{
     height: 25%;
 }
+@media (min-width : 1921) {
+    
+}
 @media (min-width : 320px) and (max-width : 900px){
     .ContactDiv{
         flex-direction: column;
@@ -64,7 +67,7 @@
         height: 500px;
     }
     .Contact h1{
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
     .ContactInfo li{
         font-size: 0.8em;
